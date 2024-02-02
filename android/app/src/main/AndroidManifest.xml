@@ -30,6 +30,8 @@
             android:name="flutterEmbedding"
             android:value="2" />
     </application>
+    
+<!--
     <service
         android:name=".HCEService"
         android:exported="true"
@@ -41,4 +43,5 @@
          android:name="android.nfc.cardemulation.host_apdu_service"
          android:resource=" @xml/apduservice"/>
     </service>
+-->
 </manifest>
