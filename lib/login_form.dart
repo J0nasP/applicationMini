@@ -84,7 +84,7 @@ class LoginFormState extends State<LoginForm> {
                     if (_formKey.currentState!.validate()) {
                       ScaffoldMessenger.of(context).showSnackBar(
                         const SnackBar(
-                          content: Text('Processing'),
+                          content: Text('Processing...'),
                         ),
                       );
                     }
