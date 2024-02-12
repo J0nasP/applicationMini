@@ -1,0 +1,11 @@
+
+<host-apdu-service xmlns:android="http://schemas.android.com/apk/res/android"
+    android:description="@string/servicedesc"
+    android:requireDeviceUnlock="false">
+    <aid-group android:description="@string/aiddescription"
+            android:category="other">
+            <!-- TODO: Need to change AID to an unique identifier-->
+            <aid-filter android:name="F0010203040506" />>
+    </aid-group>
+
+</host-apdu-service>
