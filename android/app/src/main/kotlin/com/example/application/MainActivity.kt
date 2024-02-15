@@ -4,6 +4,9 @@ import io.flutter.embedding.android.FlutterActivity
 
 class MainActivity: FlutterActivity() {
 
+    private val channel : MethodChannel by lazy { MethodChannel}
+
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         GeneratedPluginRegistrant.registerWith(this)
